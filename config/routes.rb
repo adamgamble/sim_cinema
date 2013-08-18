@@ -4,6 +4,8 @@ SimCinema::Application.routes.draw do
   root :to => "dashboard#home"
 
   get '/dashboard' => "dashboard#user_home", as: :user_home
+
+  resources :movies
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

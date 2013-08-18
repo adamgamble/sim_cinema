@@ -15,4 +15,16 @@ class Movie < ActiveRecord::Base
       transition :proposal => :proposal_accepted
     end
   end
+
+  def budget
+    1000
+  end
+
+  def revenue
+    5000
+  end
+
+  def profit
+    budget - revenue
+  end
 end

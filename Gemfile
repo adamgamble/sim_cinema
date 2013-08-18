@@ -6,6 +6,7 @@ gem 'haml-rails'
 gem 'devise'
 gem 'state_machine'
 
+gem 'draper'
 # Use postgresql as the database for Active Record
 gem 'pg'
 

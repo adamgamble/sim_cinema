@@ -5,6 +5,6 @@ class DashboardController < ApplicationController
   end
 
   def user_home
-    @movies = current_user.movies
+    @movies = current_user.movies.decorate
   end
 end
