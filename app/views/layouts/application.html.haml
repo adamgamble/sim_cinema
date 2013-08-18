@@ -1,0 +1,21 @@
+!!!
+%html
+  %head
+    %title SimCinema
+    = stylesheet_link_tag    "//netdna.bootstrapcdn.com/bootstrap/3.0.0-wip/css/bootstrap.min.css", "data-turbolinks-track" => true
+    = stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true
+    = javascript_include_tag "//netdna.bootstrapcdn.com/bootstrap/3.0.0-wip/js/bootstrap.min.js", "data-turbolinks-track" => true
+    = javascript_include_tag "application", "data-turbolinks-track" => true
+    = csrf_meta_tags
+  %body
+    .container-narrow
+      .header
+        %ul.nav.nav-pills.pull-right
+          %li.active
+            -if current_user
+              = link_to "Logout", destroy_user_session_path, method: :delete
+            -else
+              = link_to "Login", new_user_session_path
+        %h3.text-muted Sim Movie
+      .jumbotron
+        = yield

@@ -41,6 +41,7 @@ group :development, :test do
   gem 'factory_girl'
   gem 'ffaker'
   gem 'pry'
+  gem 'erb2haml'
 end
 
 # Use ActiveModel has_secure_password
