@@ -2,11 +2,11 @@ require 'factory_girl'
 
 FactoryGirl.define do
   factory :movie do
-    name Faker::Company.bs
+    name { Faker::Company.bs }
   end
 
   factory :movie_studio do
-    name Faker::Company.name
+    name { Faker::Company.name }
   end
 
   factory :proposal do
@@ -15,6 +15,6 @@ FactoryGirl.define do
   end
 
   factory :actor do
-    name Faker::Name.name
+    name { Faker::Name.name }
   end
 end

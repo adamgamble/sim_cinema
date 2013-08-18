@@ -1,0 +1,16 @@
+%h1= @movie.name
+%br/
+%table.table.table-bordered
+  %thead
+    %tr
+      %th Movie Studio
+      %th Proposal Amount
+  %tbody
+    - if @movie.proposals.any?
+      - @movie.proposals.each do |proposal|
+        %tr
+          %td= proposal.movie_studio_name
+          %td= proposal.amount
+    - else
+      %tr
+        %td{colspan: 2}= link_to "Pitch your Movie", pitch_movie_path(@movie), class: "btn btn-primary", method: :post

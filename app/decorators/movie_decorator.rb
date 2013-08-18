@@ -12,6 +12,18 @@ class MovieDecorator < Draper::Decorator
   #   end
 
 
+  def proposals
+    object.proposals.decorate
+  end
+
+  def state
+    object.state.humanize
+  end
+
+  def linked_name
+    link_to object.name, object
+  end
+
   def budget
     number_to_currency object.budget
   end
