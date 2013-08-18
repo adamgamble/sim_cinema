@@ -1,14 +1,14 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/adamgamble/rails/sim_cinema/config/environment.rb": [
+      "/Users/adamgamble/rails/sim_cinema/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/home/adamgamble/rails/sim_cinema/config/application.rb": [
+      "/Users/adamgamble/rails/sim_cinema/config/application.rb": [
         1,
         null,
         null,
@@ -38,13 +38,13 @@
         null,
         null
       ],
-      "/home/adamgamble/rails/sim_cinema/config/boot.rb": [
+      "/Users/adamgamble/rails/sim_cinema/config/boot.rb": [
         null,
         1,
         null,
         1
       ],
-      "/home/adamgamble/rails/sim_cinema/config/environments/test.rb": [
+      "/Users/adamgamble/rails/sim_cinema/config/environments/test.rb": [
         1,
         null,
         null,
@@ -82,7 +82,7 @@
         1,
         null
       ],
-      "/home/adamgamble/rails/sim_cinema/config/initializers/backtrace_silencers.rb": [
+      "/Users/adamgamble/rails/sim_cinema/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -91,7 +91,7 @@
         null,
         null
       ],
-      "/home/adamgamble/rails/sim_cinema/config/initializers/devise.rb": [
+      "/Users/adamgamble/rails/sim_cinema/config/initializers/devise.rb": [
         null,
         null,
         1,
@@ -345,13 +345,13 @@
         null,
         null
       ],
-      "/home/adamgamble/rails/sim_cinema/config/initializers/filter_parameter_logging.rb": [
+      "/Users/adamgamble/rails/sim_cinema/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/home/adamgamble/rails/sim_cinema/config/initializers/inflections.rb": [
+      "/Users/adamgamble/rails/sim_cinema/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -369,14 +369,14 @@
         null,
         null
       ],
-      "/home/adamgamble/rails/sim_cinema/config/initializers/mime_types.rb": [
+      "/Users/adamgamble/rails/sim_cinema/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null,
         null
       ],
-      "/home/adamgamble/rails/sim_cinema/config/initializers/secret_token.rb": [
+      "/Users/adamgamble/rails/sim_cinema/config/initializers/secret_token.rb": [
         null,
         null,
         null,
@@ -390,12 +390,12 @@
         null,
         1
       ],
-      "/home/adamgamble/rails/sim_cinema/config/initializers/session_store.rb": [
+      "/Users/adamgamble/rails/sim_cinema/config/initializers/session_store.rb": [
         null,
         null,
         1
       ],
-      "/home/adamgamble/rails/sim_cinema/config/initializers/wrap_parameters.rb": [
+      "/Users/adamgamble/rails/sim_cinema/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -411,7 +411,7 @@
         null,
         null
       ],
-      "/home/adamgamble/rails/sim_cinema/config/routes.rb": [
+      "/Users/adamgamble/rails/sim_cinema/config/routes.rb": [
         1,
         1,
         null,
@@ -472,7 +472,7 @@
         null,
         null
       ],
-      "/home/adamgamble/rails/sim_cinema/app/models/user.rb": [
+      "/Users/adamgamble/rails/sim_cinema/app/models/user.rb": [
         1,
         null,
         null,
@@ -481,15 +481,15 @@
         null,
         null
       ],
-      "/home/adamgamble/rails/sim_cinema/app/helpers/application_helper.rb": [
+      "/Users/adamgamble/rails/sim_cinema/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/home/adamgamble/rails/sim_cinema/app/helpers/dashboard_helper.rb": [
+      "/Users/adamgamble/rails/sim_cinema/app/helpers/dashboard_helper.rb": [
         1,
         null
       ],
-      "/home/adamgamble/rails/sim_cinema/spec/factories/factories.rb": [
+      "/Users/adamgamble/rails/sim_cinema/spec/factories/factories.rb": [
         1,
         null,
         1,
@@ -507,7 +507,7 @@
         null,
         null
       ],
-      "/home/adamgamble/rails/sim_cinema/app/models/movie.rb": [
+      "/Users/adamgamble/rails/sim_cinema/app/models/movie.rb": [
         1,
         1,
         1,
@@ -520,7 +520,7 @@
         null,
         null
       ],
-      "/home/adamgamble/rails/sim_cinema/spec/models/movie_studio_spec.rb": [
+      "/Users/adamgamble/rails/sim_cinema/spec/models/movie_studio_spec.rb": [
         1,
         null,
         1,
@@ -540,12 +540,11 @@
         1,
         1,
         1,
-        1,
         null,
         null,
         null
       ],
-      "/home/adamgamble/rails/sim_cinema/app/models/movie_studio.rb": [
+      "/Users/adamgamble/rails/sim_cinema/app/models/movie_studio.rb": [
         1,
         1,
         null,
@@ -554,20 +553,67 @@
         null,
         null
       ],
-      "/home/adamgamble/rails/sim_cinema/spec/models/proposal_spec.rb": [
+      "/Users/adamgamble/rails/sim_cinema/spec/models/proposal_generator_spec.rb": [
         1,
+        1,
+        1,
+        1,
+        2,
+        null,
+        null,
+        null,
+        1,
+        2,
+        2,
         null,
         1,
         1,
+        5,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
         null
       ],
-      "/home/adamgamble/rails/sim_cinema/app/models/proposal.rb": [
+      "/Users/adamgamble/rails/sim_cinema/app/models/proposal_generator.rb": [
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        3,
+        null,
+        null,
+        1,
+        1,
+        5,
+        null,
+        null,
+        null,
+        1,
+        1,
+        5,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/adamgamble/rails/sim_cinema/app/models/proposal.rb": [
         1,
         1,
         1,
         null
       ]
     },
-    "timestamp": 1376775671
+    "timestamp": 1376795297
   }
 }
