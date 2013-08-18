@@ -1,5 +1,7 @@
 class Movie < ActiveRecord::Base
   has_many :proposals
+  has_many :movie_roles
+  has_many :actors, through: :movie_roles
   belongs_to :accepted_proposal, class_name: "Proposal"
   has_one :movie_studio, :through => :accepted_proposal
 
