@@ -13,4 +13,8 @@ FactoryGirl.define do
     movie
     movie_studio
   end
+
+  factory :actor do
+    name Faker::Name.name
+  end
 end

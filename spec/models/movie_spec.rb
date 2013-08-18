@@ -31,4 +31,17 @@ describe Movie do
       end
     end
   end
+
+  describe "actors" do
+    let(:movie) { FactoryGirl.create(:movie) }
+    let(:actor) { FactoryGirl.create(:actor) }
+
+    before do
+      movie.movie_roles.create(actor: actor)
+    end
+
+    it "should receive actors from movie roles" do
+      movie.actors.should include(actor)
+    end
+  end
 end

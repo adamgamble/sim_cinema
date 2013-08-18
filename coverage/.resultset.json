@@ -505,6 +505,10 @@
         1,
         1,
         null,
+        null,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/adamgamble/rails/sim_cinema/app/models/actor.rb": [
@@ -556,6 +560,19 @@
         1,
         1,
         null,
+        null,
+        null,
+        null,
+        1,
+        2,
+        2,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
         null,
         null,
         null
@@ -669,6 +686,6 @@
         null
       ]
     },
-    "timestamp": 1376796557
+    "timestamp": 1376796815
   }
 }
