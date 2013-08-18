@@ -11,11 +11,11 @@
     .container-narrow
       .header
         %ul.nav.nav-pills.pull-right
+          %li= link_to "Movies", "#"
           %li.active
             -if current_user
               = link_to "Logout", destroy_user_session_path, method: :delete
             -else
               = link_to "Login", new_user_session_path
         %h3.text-muted Sim Movie
-      .jumbotron
-        = yield
+      = yield

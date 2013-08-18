@@ -8,6 +8,8 @@
         null,
         1,
         null,
+        null,
+        1,
         null
       ],
       "/Users/adamgamble/rails/sim_cinema/app/helpers/application_helper.rb": [
@@ -16,6 +18,30 @@
       ],
       "/Users/adamgamble/rails/sim_cinema/app/helpers/dashboard_helper.rb": [
         1,
+        null
+      ],
+      "/Users/adamgamble/rails/sim_cinema/app/helpers/movies_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/adamgamble/rails/sim_cinema/app/controllers/movies_controller.rb": [
+        1,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/Users/adamgamble/rails/sim_cinema/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
         null
       ],
       "/Users/adamgamble/rails/sim_cinema/app/models/actor.rb": [
@@ -41,8 +67,11 @@
         1,
         1,
         1,
+        null,
         1,
         1,
+        1,
+        null,
         1,
         1,
         null,
@@ -96,6 +125,6 @@
         null
       ]
     },
-    "timestamp": 1376801477
+    "timestamp": 1376801988
   }
 }

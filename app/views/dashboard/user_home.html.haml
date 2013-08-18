@@ -1,0 +1,14 @@
+%table.table.table-bordered.table-striped
+  %thead
+    %tr
+      %th Name
+      %th Total Budget
+      %th Total Revenue
+      %th Total Profit
+  %tbody
+    - @movies.each do |movie|
+      %tr
+        %td= movie.name
+        %td= movie.budget
+        %td= movie.revenue
+        %td= movie.profit

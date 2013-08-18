@@ -50,6 +50,7 @@ ActiveRecord::Schema.define(version: 20130818034022) do
   create_table "movies", force: true do |t|
     t.string   "name"
     t.string   "state"
+    t.integer  "user_id"
     t.integer  "composer_id"
     t.integer  "effects_studio_id"
     t.integer  "accepted_proposal_id"
