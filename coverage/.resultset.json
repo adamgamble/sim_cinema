@@ -515,6 +515,28 @@
         1,
         null
       ],
+      "/Users/adamgamble/rails/sim_cinema/spec/models/composer_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/adamgamble/rails/sim_cinema/app/models/composer.rb": [
+        1,
+        null
+      ],
+      "/Users/adamgamble/rails/sim_cinema/spec/models/effects_studio_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/adamgamble/rails/sim_cinema/app/models/effects_studio.rb": [
+        1,
+        null
+      ],
       "/Users/adamgamble/rails/sim_cinema/spec/models/movie_role_spec.rb": [
         1,
         null,
@@ -578,6 +600,8 @@
         null
       ],
       "/Users/adamgamble/rails/sim_cinema/app/models/movie.rb": [
+        1,
+        1,
         1,
         1,
         1,
@@ -686,6 +710,6 @@
         null
       ]
     },
-    "timestamp": 1376796815
+    "timestamp": 1376797466
   }
 }
